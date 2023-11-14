@@ -228,7 +228,7 @@ filter: grayscale(1);
   .sec-2 .app_image_slider img {
     width: 90%;
   }
-  .sec-2 .div-btn-animated a {
+   .div-btn-animated a {
     display: flex;
     align-items: center;
     width: -moz-fit-content;
@@ -239,7 +239,7 @@ filter: grayscale(1);
   }
 
 
-  .sec-2 .div-btn-animated a .div-arrow-animation {
+   .div-btn-animated a .div-arrow-animation {
     background-image: url(./image/Frame\ 1686556216\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -252,7 +252,7 @@ filter: grayscale(1);
 
 
 
-  .sec-2 .div-btn-animated a:hover .div-arrow-animation {
+   .div-btn-animated a:hover .div-arrow-animation {
     background-position: left;
   }
   
@@ -625,6 +625,11 @@ background-color: #464646;
     .sec-2 h3 {
       font-size: 35px;
     }
+
+    .div-btn {
+      justify-content: left;
+  }
+
     .sec-5 .col-lg-6 .content h2 {
       font-size: 35px;
     }
