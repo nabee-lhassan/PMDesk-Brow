@@ -139,6 +139,7 @@ filter: grayscale(1);
 
   .banner h1 {
     font-size: 50px;
+    line-height: 73px;
   }
   .banner .banner-image {
     width: 100%;
