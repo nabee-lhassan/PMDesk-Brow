@@ -462,7 +462,7 @@ filter: grayscale(1);
   
   footer {
     /* background: linear-gradient(180deg, #5F8D4E 0%, #124731 100%); */
-background-color: #464646;
+background-color: #343434;
   }
   footer .div-footer-logo img {
     width: 161px;
@@ -516,6 +516,7 @@ background-color: #464646;
     border-bottom: 1px solid white;
     width: 70%;
     padding: 10px 0px;
+    color: white;
   }
   footer .div-footer-form form :focus-visible {
     outline: none;
@@ -596,6 +597,10 @@ background-color: #464646;
     .sec-2 .row {
       flex-direction: column-reverse;
     }
+
+    .sec-5 {
+      padding: 5% 0% 20% 0%;
+  }
     .sec-5 .row {
       flex-direction: column-reverse;
     }
@@ -605,6 +610,15 @@ background-color: #464646;
     .sec-5 .col-lg-6 .content h2 {
       font-size: 35px;
     }
+
+    .sec-5 .div-ul ul {
+      width: 100%;
+  }
+
+  .sec-5 .div-ul {
+    flex-direction: column;
+}
+
     .sec-6 .contact-form form {
       width: 100%;
       padding: 0%;
@@ -615,7 +629,7 @@ background-color: #464646;
   }
   @media only screen and (max-width: 820px) {
     .banner h1 {
-      font-size: 35px;
+      font-size: 30px;
       line-height: 50px;
     }
 
@@ -634,7 +648,7 @@ background-color: #464646;
       font-size: 35px;
     }
     .div-heading h3 {
-      font-size: 35px;
+      font-size: 29px;
     }
     .sec-6 .contact-form form {
       width: 100%;
