@@ -46,11 +46,18 @@
     border: none;
     font-size: 14px;
   }
+
   
   .sec {
     opacity: 0;
     transform: translate(0px, 20px);
     transition: 3.5s;
+    
+  }
+
+
+  section{
+    overflow: hidden;
   }
   
   .sec-anim {
